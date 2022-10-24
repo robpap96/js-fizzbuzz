@@ -1,9 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
 body {
     background-color: #083b4c;
 }
 h1 {
     color: white;
-    font-size: 3.75rem;
+    font-size: 4.375rem;
     text-align: center;
     padding: 2.5rem 0;
+}
+.container {
+    max-width: 1340px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*creo i quadrati*/
+.standard-square {
+    width: calc(100%/7 - 20px);
+    background-color: #1389b2;
+    text-align: center;
+    line-height: 180px;
+    margin-bottom: 20px;
+}
+.fizz-square {
+    width: calc(100%/7 - 20px);
+    background-color: #0cd6a1;
+    text-align: center;
+    line-height: 180px;
+    margin-bottom: 20px;
+}
+.buzz-square {
+    width: calc(100%/7 - 20px);
+    background-color: #ffd166;
+    text-align: center;
+    line-height: 180px;
+    margin-bottom: 20px;
+}
+.fizzbuzz-square {
+    width: calc(100%/7 - 20px);
+    background-color: #f0466f;
+    text-align: center;
+    line-height: 180px;
+    margin-bottom: 20px;
 }
